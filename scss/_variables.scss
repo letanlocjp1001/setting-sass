@@ -1,0 +1,10 @@
+$color-primary: #55c57a;
+$color-secondary: #2998ff;
+$bg-primary: #ff7730;
+$color-white: #fff;
+
+@mixin alginCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

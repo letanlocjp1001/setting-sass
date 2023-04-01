@@ -1,0 +1,38 @@
+@import "variables";
+@import "basic";
+@import "header";
+@import "footer";
+
+
+
+main {
+  height: 90vh;
+  background-color: $color-secondary;
+}
+
+.box {
+  @include alginCenter;
+  height: 10rem;
+  background: $bg-primary;
+  gap: 5rem;
+
+  &__list {
+    // list-style: none;
+
+    &--link {
+      // text-decoration: none;
+      color: $color-white;
+      font-size: 30px;
+      font-weight: bold;
+    }
+  }
+}
+
+.group {
+  @include alginCenter;
+  font-size: 2rem;
+  background-color: $color-white;
+  gap: 3rem;
+  font-weight: bold;
+  padding: 3rem;
+}

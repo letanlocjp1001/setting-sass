@@ -1,0 +1,18 @@
+{
+  "name": "setting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "sass scss/style.scss css/style.css -w",
+    "dev": "lite-server",
+    "start": "npm-run-all --parallel dev watch:sass"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lite-server": "^2.6.1",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.60.0"
+  }
+}
